@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexParser", "RegexParser\RegexParser.csproj", "{F870A64D-2B11-4804-BD5E-36D9B0984CB8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexParser.ConsoleTests", "RegexParser.ConsoleTests\RegexParser.ConsoleTests.csproj", "{469FF3BE-59C4-4BCB-A621-0CF9D42E8DAA}"
@@ -16,6 +18,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility.Tests", "Utility.Tests\Utility.Tests.csproj", "{17EFE02B-3387-4972-9448-DAB3AC5370FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "UnitTesting\UnitTesting.csproj", "{D060A316-849A-4367-A4D7-1C07B4BE24E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexTree", "RegexTree\RegexTree.csproj", "{87E563B3-AFE0-4506-BE28-FA0A865CD8F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{D22C8C88-D2D6-4700-BD86-CDF2ED37E6C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,8 +61,19 @@ Global
 		{D060A316-849A-4367-A4D7-1C07B4BE24E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D060A316-849A-4367-A4D7-1C07B4BE24E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D060A316-849A-4367-A4D7-1C07B4BE24E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E563B3-AFE0-4506-BE28-FA0A865CD8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E563B3-AFE0-4506-BE28-FA0A865CD8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E563B3-AFE0-4506-BE28-FA0A865CD8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E563B3-AFE0-4506-BE28-FA0A865CD8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22C8C88-D2D6-4700-BD86-CDF2ED37E6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22C8C88-D2D6-4700-BD86-CDF2ED37E6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22C8C88-D2D6-4700-BD86-CDF2ED37E6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22C8C88-D2D6-4700-BD86-CDF2ED37E6C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {989C23CB-3EE0-41B9-92C8-3C3D6FDC30F3}
 	EndGlobalSection
 EndGlobal
